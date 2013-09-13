@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIReference", "WebAPIReference\WebAPIReference.csproj", "{17792154-7F2C-4EC1-AEFC-72C658A7BBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIReference.Tests", "WebAPIReference.Tests\WebAPIReference.Tests.csproj", "{786AAC9E-8342-4B65-983E-01E2AA7809B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79CC75FD-3C79-43B8-B8A5-1A991EBADE73}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17792154-7F2C-4EC1-AEFC-72C658A7BBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17792154-7F2C-4EC1-AEFC-72C658A7BBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17792154-7F2C-4EC1-AEFC-72C658A7BBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17792154-7F2C-4EC1-AEFC-72C658A7BBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786AAC9E-8342-4B65-983E-01E2AA7809B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786AAC9E-8342-4B65-983E-01E2AA7809B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786AAC9E-8342-4B65-983E-01E2AA7809B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786AAC9E-8342-4B65-983E-01E2AA7809B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
