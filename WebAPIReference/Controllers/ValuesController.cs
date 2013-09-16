@@ -11,6 +11,7 @@ namespace WebAPIReference.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        [AllowAnonymous]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
@@ -38,10 +39,10 @@ namespace WebAPIReference.Controllers
         /// <returns></returns>
         public HttpResponseMessage Post([FromBody]Credentials input)
         {
-            var credentialsAreValid = false;
-            if (!credentialsAreValid)
+            var inputIsValid = true;
+            if (!inputIsValid)
             {
-                var errorMessage = new ErrorMessage {Message = "Invalid login information."};
+                var errorMessage = new ErrorMessage {Message = "Invalid object state."};
                 var badResponse = Request.CreateResponse(HttpStatusCode.NotAcceptable, errorMessage);
                 return badResponse;
             }
